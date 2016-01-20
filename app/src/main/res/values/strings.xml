@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Move</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_next_class">next_class</string>
+    <string name="title_activity_day_option">day_option</string>
+    <string name="title_activity_events">events</string>
+    <string name="title_activity_kok">kok</string>
+    <string name="title_activity_ksfsahf">ksfsahf</string>
+    <string name="title_activity_categories_search_activity">categories_search_activity</string>
+    <string name="facebook_app_id">174328249594581</string>
+    <string name="title_activity_grid_view_activity">grid_view_activity</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:id="@+id/categories_layout">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:text="All Categories"
+        android:id="@+id/cate_button1" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Technical"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/cate_button2"
+        android:layout_toRightOf="@+id/cate_button1"
+        />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Cultural"
+        android:id="@+id/cate_button3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/cate_button1"
+         />
+
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Informal"
+        android:id="@+id/cate_button4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/cate_button3"
+        android:layout_below="@+id/cate_button1"/>
+</RelativeLayout>

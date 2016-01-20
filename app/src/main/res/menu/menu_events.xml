@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.sarthak.move.events">
+
+    <item android:id="@+id/category_menu" android:title="All Categories"
+
+        android:orderInCategory="100" app:showAsAction="always"
+        />
+</menu>
